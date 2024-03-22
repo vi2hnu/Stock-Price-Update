@@ -25,7 +25,7 @@ def repeat_print():
             file.write("No change in stock price\n")
             file.write("\n")
 
-    timer = threading.Timer(10, repeat_print)
+    timer = threading.Timer(600, repeat_print)
     timer.start()
 
 repeat_print()
